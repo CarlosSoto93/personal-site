@@ -1,0 +1,107 @@
+body {
+    font-family: Optima;
+}
+
+html{
+    height: 100%;
+}
+
+.jumbotron{
+    background-image: url('../img/san-antonio.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Optima;
+    height: 660px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#content{
+    text-align: center;
+    padding-top: 10%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1{
+    font-weight: 700;
+    font-size: 5em;
+}
+
+hr{
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.navbar-inverse{
+    background-color: transparent;
+    border: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+@media (max-width: 770px){
+    .navbar-inverse{
+        background-color: #011963;
+    }
+}
+
+.about{
+    background-color: lightgray;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills{
+    background-color: #eee;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.portfolio{
+    background-color: lightgray;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sectionHr{
+    text-align: left;
+    width: 100px;
+    border-top: 1px solid #011963;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.sectionHeader{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #011963;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    0px 8px 13px rgba(0,0,0,0.1),
+    0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#myImg{
+    margin: auto;
+}
+
+.row .thumbnail {
+    border:0;
+    box-shadow:0;
+    border-radius:0;
+}
+
